@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/renderless-challenge/',
   plugins: [
     vue({
       reactivityTransform: true,
